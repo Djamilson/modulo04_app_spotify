@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import GlobalStyle from './styles/global';
 
-function App() {
-  return (
-    <h1>teste</h1>
-  );
-}
+import { Wrapper, Container } from './styles/components';
+
+import Sidebar from './components/Sidebar';
+import Player from './components/Player';
+
+const App = () => (
+  <Fragment>
+    <GlobalStyle />
+    <Wrapper>
+      <Container>
+        <Sidebar />
+      </Container>
+      <Player />
+    </Wrapper>
+  </Fragment>
+);
 
 export default App;
