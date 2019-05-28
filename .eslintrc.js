@@ -17,7 +17,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "jsx-a11y", "import"],
-  "rules": {
+  "rules" : {
     "react/jsx-filename-extension": [
       "error",
       {
